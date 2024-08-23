@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/blogs/
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNnaGFocmVtYW5pQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MjQ0Mjc5ODh9.j14_RbxDw32KCZ_mZmt-QIwW23zl0s3wSnJfDbyE8JA
+
+{
+    "url": "www.fullstackopen.com",
+    "title": "Joy of cooking",
+    "year": 2014
+}
